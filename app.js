@@ -15,7 +15,7 @@ const app = express();
 
 app.set('view engine', 'ejs');
 
-mongoose.connect("mongodb+srv://mandarsatam:mandar1997@cluster0.y9mcg.mongodb.net/dailyblogDB", { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("mongodb+srv://mandarsatam:*********@cluster0.y9mcg.mongodb.net/dailyblogDB", { useNewUrlParser: true, useUnifiedTopology: true })
 
 const postSchema = {
     title: String,
