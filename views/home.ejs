@@ -5,10 +5,10 @@
     </p>
     <% postArray.forEach(function(post){ %>
         <h1>
-            <%= post.postTitle %>
+            <%= post.title %>
         </h1>
         <p>
-            <%=  post.postBody.substring(0, 100)+" ..."  %> <a href="/posts/<%=post.postTitle%>">Read more.</a>
+            <%=  post.body.substring(0, 100)+" ..."  %> <a href="/posts/<%=post._id%>">Read more.</a>
         </p>
         <%})%>
             <% include partials//footer.ejs %>
